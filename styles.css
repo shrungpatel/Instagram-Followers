@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.file-input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.file-input input {
+  margin: 0 10px;
+}
+
+#result {
+  border: 1px solid #ccc;
+  padding: 20px;
+  white-space: pre-wrap;
+}
