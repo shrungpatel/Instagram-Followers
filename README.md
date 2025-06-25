@@ -12,6 +12,8 @@ There might be a lot of files in that folder but only two are relevant for us (f
 ## Run the script
 Open the script in your preferred Python IDE. https://www.onlinegdb.com/online_python_compiler is one that is easy to work with.
 Upload the two JSON files and run the .py file.
+
+Or, you can upload them to https://shrungpatel.github.io/Instagram-Followers/ for a quicker solution.
 That's it!
 
 # Background
