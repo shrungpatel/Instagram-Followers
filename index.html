@@ -17,39 +17,16 @@
   <body resetFile()>
     <div class="container">
       <h1>Upload the respective files to find out!</h1>
+      <!--TODO: I like this design: https://uiverse.io/Ma7moud344/bright-wombat-40 --> 
       <div class="file-input">
+        <label for="file">Followers</label>
         <input type="file" id="followers" name="followers" accept=".json" required />
+        <label for="file">Followings</label>
         <input type="file" id="following" name="following" accept=".json" required />
-        <button onclick="uploadFiles()">Upload</button>
-      </div>
-      <div id="result"></div>
-    </div>
-    <script src="find.js"></script>
-  </body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Instagram Followers vs Following</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <script>
-    function resetFile() {
-      const file = followers.querySelector(".file");
-      file.value = "";
-      document.getElementById('result').textContent = "Find out by clicking upload";
-      // TODO: fix this
-    }
-  </script>
-  <body resetFile()>
-    <div class="container">
-      <h1>Upload the respective files to find out!</h1>
-      <div class="file-input">
-        <input type="file" id="followers" name="followers" accept=".json" required />
-        <input type="file" id="following" name="following" accept=".json" required />
-        <button onclick="uploadFiles()">Upload</button>
+        <div class="button-container" onclick="uploadFiles()">
+          <button class="button">Upload</button>
+        </div>
+
       </div>
       <div id="result"></div>
     </div>
